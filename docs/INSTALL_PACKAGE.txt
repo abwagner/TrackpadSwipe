@@ -1,0 +1,36 @@
+TrackpadSwipe — macOS 15 or later
+
+1. Quit any older TrackpadSwipe/TrackpadType copy.
+2. Drag TrackpadSwipe.app to Applications, then eject this disk image.
+3. Open TrackpadSwipe from Applications.
+4. In System Settings > Privacy & Security > Accessibility, add the installed
+   TrackpadSwipe.app and enable it. Keep the app in the same location for updates.
+5. Click into an editable text field. Rest three fingers on the trackpad and
+   physically click to open the keyboard. Touching alone does not activate it.
+6. Click a starting letter, trace the word, then click again to enter it.
+   Words get a leading space only when needed; no automatic trailing space.
+   Fn opens numbers/punctuation; ABC returns to letters. Click symbols to enter.
+   Swipe contractions through their letters; choose the apostrophized suggestion.
+   The on-screen delete key removes a word or selected text.
+7. Press Esc or three-finger click again to close and release capture.
+
+Choose Settings from the keyboard menu-bar icon for size, position, pointer speed,
+suggestion fonts, cursor appearance, and alternative triggers.
+
+A package marked UNNOTARIZED-preview is a local test build, not a notarized public
+release. See the online guide for first-launch behavior and troubleshooting.
+
+Known limits: all pointing devices are captured during a stroke; private trackpad
+APIs may conflict with system gestures; editor compatibility varies. Codex and Telegram use
+process-targeted typing with a remaining focus-timing limitation. Intel binaries
+are included but have not been tested on Intel hardware.
+
+Illustrated setup and troubleshooting:
+https://github.com/abwagner/TrackpadSwipe/blob/main/docs/INSTALL.md
+
+Privacy and third-party notices:
+https://github.com/abwagner/TrackpadSwipe/blob/main/docs/PRIVACY.md
+https://github.com/abwagner/TrackpadSwipe/blob/main/THIRD_PARTY_NOTICES.md
+
+Quit from the menu before uninstalling. Remove the Accessibility entry, then move
+the app to Trash. No privileged installer, service, or login item is installed.

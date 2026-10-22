@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/swipe-engine",
+    "apps/web",
+]
+
+[workspace.package]
+version = "0.1.4"
+edition = "2021"
+authors = ["Zimeng Xiong"]
+license = "MIT"
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+wasm-bindgen = "0.2"

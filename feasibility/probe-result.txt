@@ -1,0 +1,9 @@
+ABI touch_size=96 accessibility=not_granted_to_probe
+EVENT_TAP_CREATE=UNAVAILABLE (not installed; no input suppressed)
+*** Recognized (0x6d) family*** (24 cols X 18 rows)
+DEVICE_START=0 READY seconds=60
+CONTACT_END fingers=1 duration=0.640 max_motion=0.0425 three_finger_tap=no
+CONTACT_END fingers=3 duration=8.305 max_motion=0.1065 three_finger_tap=no
+CONTACT_END fingers=1 duration=0.200 max_motion=0.0575 three_finger_tap=no
+CONTACT_END fingers=3 duration=13.946 max_motion=0.0847 three_finger_tap=no
+SUMMARY frames=2123 points=3224 peak_fingers=3 three_finger_frames=89 tap_candidates=0 x_range=0.000..1.000 y_range=0.302..0.999

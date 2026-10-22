@@ -1,0 +1,34 @@
+# Rust
+/target
+/apps/web/target
+
+# macOS
+.DS_Store
+*.xcodeproj
+apps/mac/BuildData/
+apps/mac/build/
+apps/mac/build_log.txt
+apps/mac/Rust/*.a
+
+# Web / WASM
+pkg/
+apps/web/pkg/
+
+# Other
+.gemini/tmp/
+
+# Native trackpad prototype binaries and scratch documents
+/native/build/
+
+# Local signing and credential material must never be committed.
+*.keychain-db
+*.p12
+*.pfx
+signing-key.pem
+keychain-password
+.env
+.env.*
+!.env.example
+
+# Generated upstream web bundle
+/build/

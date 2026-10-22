@@ -1,0 +1,14 @@
+{
+  "provider": "wordfreq",
+  "version": "3.1.1",
+  "creator": "Robyn Speer",
+  "source": "https://pypi.org/project/wordfreq/3.1.1/",
+  "language": "en",
+  "wordlist": "large",
+  "entries": 60000,
+  "transform": "First 60000 frequency-ranked ASCII lowercase words, allowing internal apostrophes, of length 2\u201322; frequencies multiplied by 10^12 and rounded to integers, minimum 1; tab-separated UTF-8.",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source_data_sha256": "dffae8066b78dce0a6667cf5f58e567054f902674667090a7ac8a8a44628b05c",
+  "output_sha256": "9dcf5483d398abe2c4283d8d1cc4b48ee0a9f3366faeb541eabdadd82ffc0723"
+}

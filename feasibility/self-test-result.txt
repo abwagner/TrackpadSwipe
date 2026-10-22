@@ -1,0 +1,7 @@
+CONTACT_END fingers=3 duration=0.150 max_motion=0.0010 three_finger_tap=YES
+CONTACT_END fingers=3 duration=0.200 max_motion=0.1200 three_finger_tap=no
+CONTACT_END fingers=3 duration=0.800 max_motion=0.0000 three_finger_tap=no
+CONTACT_END fingers=4 duration=0.200 max_motion=0.0000 three_finger_tap=no
+CONTACT_END fingers=1 duration=0.200 max_motion=0.2000 three_finger_tap=no
+CONTACT_END fingers=3 duration=0.150 max_motion=0.0000 three_finger_tap=YES
+SELF_TEST PASS: tap, swipe rejection, hold rejection, four-finger rejection, one-finger rejection, staggered arrival

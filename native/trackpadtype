@@ -1,0 +1,16 @@
+#!/bin/sh
+set -eu
+case "${1:-toggle}" in
+  show|hide|toggle|test)
+    task_app=''
+    for task_candidate in /Applications/TrackpadSwipe.app "$HOME/Applications/TrackpadSwipe.app" "$HOME/Applications/TrackpadType.app"; do
+      if [ -d "$task_candidate" ]; then task_app=$task_candidate;break;fi
+    done
+    if [ -z "$task_app" ]; then printf 'Install TrackpadSwipe.app in Applications first.\n' >&2;exit 1;fi
+    /usr/bin/open -g -a "$task_app" "trackpadtype://${1:-toggle}"
+    ;;
+  status)
+    cat "$HOME/Library/Application Support/TrackpadType/status.json"
+    ;;
+  *) printf 'Usage: trackpadtype [show|hide|toggle|test|status]\n' >&2; exit 2 ;;
+esac
